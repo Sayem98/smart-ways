@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1{
+  background-image: url('../src/assets/bg4.jpg');
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  background-size: cover;  
+  /* height: 100%; */
+  /* height: 300vh; */
+  color: white;
+}
+.answer1{
+  background-color: red;
+}
+.termheading{
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.termpara{
+  font-size: 15px;
+  font-weight: 500;
+}
